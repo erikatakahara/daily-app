@@ -7,7 +7,8 @@ export default class Card extends Component {
   render() {
     return (
       <View style={Style.card}>
-      	<Text>This is a card</Text>
+      	<Text style={Style.title}>{this.props.title}</Text>
+      	{this.props.children}
       </View>
     );
   }
