@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, ScrollView, Text } from 'react-native';
 
 import Header from '../../molecules/header/template';
 import Style from './style';
@@ -10,9 +10,9 @@ export default class Page extends Component {
     return (
 		<View style={ Style.page }>
 			<Header title={ this.props.title } />
-			<View>
+			<ScrollView>
 				{ this.props.children }
-			</View>
+			</ScrollView>
 		</View>
     );
   }

@@ -7,7 +7,7 @@ export default {
 	'white': '#ffffff',
 	'shadow': '#727272',
 
-	'positive': '#2FE02E',
+	'positive': '#008900',
 	'negative': '#C50B12',
 
 	'listColor': '#343434',
